@@ -1,0 +1,252 @@
+@media only screen and (min-width:1400px) {
+    .hero_banner_bg {
+        height: 900px;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .team_social {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width:991px) {
+
+    /* Main Menu */
+    .header_inner {
+        display: block;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        height: 60px;
+        line-height: 60px;
+        max-width: 150px;
+    }
+
+    .header_inner {
+        position: relative;
+    }
+
+    .menu_bars {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 5px;
+    }
+
+    .close_menu {
+        display: block;
+    }
+
+    .menu_wrapper {
+        height: 100vh;
+        width: 300px;
+        background: #fff;
+        position: fixed;
+        right: -100%;
+        top: 60px;
+        z-index: 999;
+        transition: right 0.3s ease;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .menu_wrapper.active {
+        right: 0;
+    }
+
+    ul.main_menu {
+        display: block;
+        padding-top: 50px;
+        padding-left: 30px;
+        height: 100vh;
+        overflow-y: scroll;
+        padding-bottom: 100px;
+    }
+
+    ul.main_menu li.menu_item {
+        margin-left: 0;
+        display: block;
+    }
+
+    li.menu_item.has_dropdown::after {
+        content: '\f078';
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        position: absolute;
+        right: 0;
+        top: 15px;
+        color: #666;
+        width: 50px;
+        padding-left: 15px;
+    }
+
+    ul.main_menu li.menu_item a {
+        color: var(--text-color);
+        padding: 10px 0;
+        display: inline-block;
+        padding-right: 120px;
+    }
+
+    ul.main_menu>li.menu_item>a::after {
+        display: none;
+    }
+
+    li.menu_item ul.drop_down {
+        display: block;
+        opacity: 1;
+        height: 0;
+        overflow: hidden;
+        transition: all 0.2s linear;
+        padding: 0 20px;
+        background: none;
+        box-shadow: none;
+        position: unset;
+    }
+
+    /* Hero Banner Area */
+    .hero_caption h1 {
+        font-size: 48px;
+        line-height: 50px;
+    }
+
+    .hero_links ul li a:hover {
+        background: transparent;
+    }
+
+    /* Service Section */
+    .service_item:hover {
+        background: #fff;
+    }
+
+    .service_item:hover .service_icon {
+        background: #423F8D;
+        color: #fff;
+    }
+
+    .service_item:hover .service_item_title {
+        color: #423F8D;
+    }
+
+    .service_item:hover .service_item_details {
+        color: var(--text-color);
+    }
+
+    /* Team Section */
+    .team_section.section,
+    .work_section.section {
+        padding-bottom: 50px;
+    }
+
+    .team_item,
+    .work_item {
+        margin-bottom: 50px;
+    }
+
+    .team_item:hover {
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+
+    /* Work Section */
+    .work_item:hover .work_details {
+        background: #fff;
+    }
+
+    .work_item .work_category {
+        background: var(--primary-color);
+        color: #fff;
+    }
+
+    /* Footer Section */
+    #footer.section {
+        padding-bottom: 30px;
+    }
+
+    .footer_widget {
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+
+    /* Hero Banner */
+    .hero_banner_bg {
+        height: 1000px;
+    }
+
+    .hero_links {
+        margin-top: 60px;
+    }
+
+    .hero_caption {
+        order: 2;
+    }
+
+    .hero_image {
+        order: 1;
+        margin-bottom: 50px;
+    }
+
+    /* About Section */
+    .about_content {
+        padding-left: 0;
+    }
+
+    .about_img {
+        margin-bottom: 75px;
+    }
+
+    /* Count Section */
+    .success_count {
+        padding-bottom: 50px;
+    }
+
+    .count_item {
+        color: #fff;
+        margin-bottom: 50px;
+    }
+
+
+
+    #footer {
+        padding-bottom: 30px;
+    }
+}
+
+
+@media only screen and (max-width:575px) {
+
+    .hero_caption h1 {
+        font-size: 42px;
+        line-height: 50px;
+    }
+
+    .section_tittle {
+        font-size: 30px;
+    }
+
+    .to_top {
+        bottom: 25px;
+        right: 25px;
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+        line-height: 35px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .hero_banner_bg {
+        height: 900px;
+    }
+
+    .service_icon {
+        display: none;
+    }
+
+    .service_item {
+        padding: 20px;
+        padding-left: 20px;
+    }
+}
