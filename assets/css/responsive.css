@@ -111,6 +111,11 @@
         line-height: 50px;
     }
 
+    .hero_links ul li a,
+    .footer_social li a {
+        font-size: 20px;
+    }
+
     .hero_links ul li a:hover {
         background: transparent;
     }
@@ -165,6 +170,7 @@
 
     .footer_widget {
         margin-bottom: 50px;
+        padding-left: 20px;
     }
 }
 
