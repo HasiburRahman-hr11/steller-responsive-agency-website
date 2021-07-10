@@ -405,7 +405,7 @@ ul.drop_down li.menu_item a:hover {
 * * * * Count Section * * * *
 */
 .success_count {
-    background: url('/assets/img/count-bg.jpg');
+    background: url('https://githasib.github.io/steller-responsive-agency-website/assets/img/count-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 100px 0;
